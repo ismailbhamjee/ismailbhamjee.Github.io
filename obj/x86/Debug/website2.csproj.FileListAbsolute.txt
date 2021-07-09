@@ -1,0 +1,2 @@
+C:\Users\ish11\OneDrive\Desktop\website\html5up-arcana\obj\x86\Debug\website2.csprojAssemblyReference.cache
+C:\Users\ish11\OneDrive\Desktop\website\html5up-arcana\obj\x86\Debug\website2.csproj.CoreCompileInputs.cache

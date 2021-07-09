@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+
+	<head>
+		<title>Thesis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+
+			
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1><a href="#" id="logo">Flood detection using tweets </em></a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="home.html">Home</a></li>									
+								<li><a href="Skills.html">skills</a></li>
+								<li class="current"><a href="right-sidebar.html">Thesis</a></li>
+								<li><a href="Projects.html">Projects</a></li>
+								<li><a href="I&H.html">Intrests & hobbies </a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+
+
+				
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+
+							
+
+							
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+
+									<!-- Content -->
+									
+
+										<article>
+											<header>
+												<h2>What is a thesis?</h2>
+												<p>An empirical thesis is typically work conducted on a scientific level at the end of a degree.
+													 It is primarily based on data and can/ could be replicated if needed. </p>
+												<p> This project usually accounts for 1/3 of the academic year it is done in. Or in some cases 1/3 of the whole degree.
+													 It is a culmination and representation of all the skills and knowledge you have learnt during your time in education.  </p>
+											</header>
+
+											<span class="image featured"><img src="images/jar.jpg" alt="" /></span>
+
+											
+
+											<h3>Evaluating flood disaster tweets through the use of text 
+												mining </h3>
+
+
+											<p>With the increased usage of social media, information regarding major events has become more 
+												abundant. During these times people express their views on what is happening in their local 
+												surroundings via various mediums. 
+												</p>
+
+											<p>This gives rise to the potential of using such data to better understand and react to events such as 
+												floods. 
+												</p>
+
+											<p>Whereas traditional Methods such as image analysis are not suitable for understanding the impact 
+												such events have on the local community. Thus, we opted for tweet analysis as they are more 
+												personal to the event and community. 
+												</p>
+
+											<p>This paper hopes to develop system in which tweets are used and processed until the level of 
+												assigning a risk factor to them. This would subsequently aim to help local authorities in the west 
+												Yorkshire primarily the bradford city council understand the damage alongside future risks. This 
+												paper will traverse through the necessary steps which are needed for the project to work. Alongside 
+												any meaningful discoveries. 
+												</p>
+											
+												<span class="image featured"><img src="images/W2V.PNG" alt="" /></span>
+
+											
+												<h3>Conclusion of the work conducted</h3>
+												<p>Twitter is a microblogging website which allows users to state whatever they want via their account. 
+													Having said this, we researched usage of this feature during crisis and public related events. During 
+													this we found many works which used tweets as a monitoring system or extraction system. </p>
+
+												<p>We also found out that the publics tweets are more likely to be genuine during these events. This led 
+													to the motivation to develop our algorithms. we aimed to create a program which would enable us 
+													to retrieve tweets which were then processed in order to be suitable for NLP vectorisation. We 
+													initially started with 3 embedding models but only 2 of them made it to our current stage in pipeline. </p>
+
+												<p>Furthermore, the system of classification we implemented judging by our results worked but had to 
+													be improved in regards to topic mapping and pre LDA classification. We found it difficult to assign 
+													topics in some clusters and some topics were overlapping in certain clusters. </p>
+													
+
+												<p> Overall, we came shy of our goal due to missing a classification layer but reached a model with high 
+													potential.</p>
+
+
+												
+													<span class="image featured"><img src="images/dsg.jpg" alt="" /></span>
+												
+												<p>Overall the experience was amazing. I'd recomend anyone to persue data science.</p>
+
+
+										</article>
+
+								</div>
+							</div>
+							
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+										
+
+
+
+										<section>
+											<h3>Methodology </h3>
+											<p>As with any project or operation we would need a plan or a method of conducting activities. We 
+												used anaconda’s distribution which allowed to import the needed libraries with ease. For 
+												development we used Jupiter notebook as it allows ease of use and it was fairly simple to use 
+												regarding executing code blocks.  </p>
+											<footer>
+												
+											</footer>
+
+											<h1>Step by step procedure </h1>
+
+											<ol>
+												<li>The first step would be to retrieve key words which reflect the events which occurred during 
+													the flooding period of 2015. </li>
+													
+                                                <li>Second would be to retrieve tweets which contain relevance to the key words and events 
+													which ae also suitable for text mining. 
+													</li>
+
+                                                <li>evaluate and process the tweets which includes cleaning and making them eligible for word 
+													vectorisation.</li>
+
+												<li>Next the tweets are vectorised using different methods word2vec, fast text and doc2vec. 
+													With addition of visualisation of vectors in relation to each other.</li>
+
+												<li>Perform unsupervised classification on the tweets to see how further they can be grouped 
+													together. </li>
+
+												<li>Next, we will perform topic modelling which will enable us to derive suitable topics from the 
+													clusters.</li>
+
+												<li>Lastly, we will test tweets via attempted allocation to the correct cluster and then topic.</li>
+
+												
+											</ol>											
+											
+										</section>
+
+										<section>
+											<h3>Report</h3>
+											<p>Dissertation submitted in partial fulfilment of the requirements for the degree of master by advance study in big data science and technology. 
+											
+												</p>
+											<p>Department of computer science University of bradford.</p>
+											<footer>
+												<a href="../images/thesis.pdf"    target="_blank"class="button">Check it out!!</a>
+											</footer>
+										</section>
+
+										<section>
+											<h3>CODE</h3>
+
+											<P> Naturally people want to know how it unfolded. please find the code in the form of Jupyter notebook documents.</P>
+											<ul class="links">
+												<li><a href="../images/got.html" target="_blank">Getting old tweets</a></li>
+												<li><a href="../images/cleaning.html" target="_blank">cleaning</a></li>
+												<li><a href="../images/join.html" target="_blank">Joining tweets together</a></li>
+												<li><a href="../images/word2vec.html" target="_blank">Word2vec version of sematic allocation</a></li>
+												<li><a href="../images/fasttext.html" target="_blank">fasttext version of sematic allocation</a></li>
+												<li><a href="../images/doc2vec.html" target="_blank">doc2vec version of sematic allocation</a></li>
+											</ul>
+											<footer>
+												
+											</footer>
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							<section class="col-3 col-6-narrower col-12-mobilep">
+								<h3>Natrual language processing</h3>
+								<ul class="links">
+									<li><a href="https://machinelearningmastery.com/natural-language-processing/" target="_blank">what is NLP</a></li>
+									<li><a href="https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1"target="_blank">Guide to natural-language-processing</a></li>
+									<li><a href="https://www.analyticssteps.com/blogs/introduction-latent-semantic-analysis-lsa-and-latent-dirichlet-allocation-lda"target="_blank">What is semantic allocation</a></li>
+									<li><a href="https://en.wikipedia.org/wiki/Word2vec"target="_blank">Word 2 vec</a></li>
+									<li><a href="https://www.google.com/search?rlz=1C1CHBF_en-GBGB898GB898&sxsrf=ALeKk01EEXZ3zVAG9gWCS_2HA-M338Tc3Q:1625768075910&q=doc+2+vec&spell=1&sa=X&ved=2ahUKEwjHiZuFitTxAhWzQUEAHRx-DDIQBSgAegQIARAw&biw=958&bih=902"target="_blank">Doc 2 vec</a></li>
+									<li><a href="https://radimrehurek.com/gensim/models/fasttext.html" target="_blank">Fast text</a></li>
+									<li><a href="https://radimrehurek.com/gensim/intro.html" target="_blank">Gensim</a></li>
+								</ul>
+							</section>
+							<section class="col-3 col-6-narrower col-12-mobilep">
+								<h3>Inspiration taken from some of these articles </h3>
+								<ul class="links">
+									<li><a href="https://www.researchgate.net/publication/303737420_Towards_two-way_flood_risk_communication_Current_practice_in_a_community_in_the_UK" target="_blank">Towards two-way flood risk communication</a></li>
+									<li><a href="https://digital.library.unt.edu/ark:/67531/metadc93902/" target="_blank">Social Media and Disasters: Current Uses, 
+										Future Options, and Policy Considerations</a></li>
+									<li><a href="https://www.researchgate.net/publication/318154420_Crisis_information_distribution_on_Twitter_a_content_analysis_of_tweets_during_Hurricane_Sandy" target="_blank">Crisis information distribution on Twitter: Hurricane Sandy</a></li>
+									<li><a href="https://ieeexplore.ieee.org/abstract/document/7009503" target="_blank">Real time road traffic monitoring alert based on incremental learning from tweets</a></li>
+									<li><a href="https://ieeexplore.ieee.org/abstract/document/7779444" target="_blank">An unsupervised fuzzy clustering method for twitter sentiment analysis</a></li>
+									
+									
+								</ul>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<h3>Get In Touch</h3>
+								<form>
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobilep">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="button alt" value="Send Message" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+					</div>
+
+					<!-- Icons -->
+						<ul class="icons">
+							<li><a href="#" target="_blank"class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" target="_blank"class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" target="_blank"class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="http://linkedin.com/in/ismail-bhamjee-756572195" target="_blank"class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" target="_blank"class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy;  All rights reserved</li><li>Design: Ismail bhamjee</li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

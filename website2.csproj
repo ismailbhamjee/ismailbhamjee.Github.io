@@ -1,0 +1,101 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{57A161E3-8CF9-49D1-83B4-3AB824ED219C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>website2</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\fontawesome-all.min.css" />
+    <Content Include="assets\css\images\bg01.png" />
+    <Content Include="assets\css\images\bg02.png" />
+    <Content Include="assets\css\images\bg03.png" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\js\breakpoints.min.js" />
+    <Content Include="assets\js\browser.min.js" />
+    <Content Include="assets\js\jquery.dropotron.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\util.js" />
+    <Content Include="assets\webfonts\fa-brands-400.svg" />
+    <Content Include="assets\webfonts\fa-regular-400.svg" />
+    <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="index.html" />
+    <Content Include="left-sidebar.html" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="no-sidebar.html" />
+    <Content Include="README.txt" />
+    <Content Include="right-sidebar.html" />
+    <Content Include="two-sidebar.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\html5up-arcana\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="assets\sass\libs\_breakpoints.scss" />
+    <None Include="assets\sass\libs\_functions.scss" />
+    <None Include="assets\sass\libs\_html-grid.scss" />
+    <None Include="assets\sass\libs\_mixins.scss" />
+    <None Include="assets\sass\libs\_vars.scss" />
+    <None Include="assets\sass\libs\_vendor.scss" />
+    <None Include="assets\sass\main.scss" />
+    <None Include="assets\webfonts\fa-brands-400.eot" />
+    <None Include="assets\webfonts\fa-brands-400.ttf" />
+    <None Include="assets\webfonts\fa-brands-400.woff" />
+    <None Include="assets\webfonts\fa-brands-400.woff2" />
+    <None Include="assets\webfonts\fa-regular-400.eot" />
+    <None Include="assets\webfonts\fa-regular-400.ttf" />
+    <None Include="assets\webfonts\fa-regular-400.woff" />
+    <None Include="assets\webfonts\fa-regular-400.woff2" />
+    <None Include="assets\webfonts\fa-solid-900.eot" />
+    <None Include="assets\webfonts\fa-solid-900.ttf" />
+    <None Include="assets\webfonts\fa-solid-900.woff" />
+    <None Include="assets\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
